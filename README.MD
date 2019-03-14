@@ -46,3 +46,8 @@ So Below are the examples of filter visualized of VGG 16 classifier.
 ![alt text](./examples/vgg_block5_conv3.png)
 
 So From Above Picture we can see that as we go deeper into the convolutional block , more small and samall shape is learned where as on the few fort block of convolutional layer only learn the overall texture of image which means if we are implementing neural style transer using VGG16 model we can use earlier block like Block 1  filter to be our Content matrix and later blocks like Block5 to be our Style matrix.
+
+I used Stanford Lecture Ppt for this repo to visulize filters using Gradient Ascent in the input Space. [Click here for the link](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture12.pdf)
+There is more cool stuff in the above lecture ppt which I will be trying soon ! Give this repo a star if you really like my work and follow me to get notified of my future works .
+
+Merci !
